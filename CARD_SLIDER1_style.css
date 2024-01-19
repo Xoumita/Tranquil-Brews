@@ -1,0 +1,118 @@
+
+/* LATEST OFFERINGS */
+
+.wrapper{
+    /* width: 100%; */
+    position: relative;
+    height: 60vh;
+    background-color: #edededde;
+
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.wrapper h3{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.carousel{
+    background-color: transparent;
+    width: 100%;
+    height: 80vh;
+    /* margin: 10px 0; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card {
+    width: 18rem;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 5px #8a8a8a;
+    margin: 11px; 
+}
+
+.card img{
+    width: 98%;
+    margin: 3px;
+    border-radius: 10px;
+}
+.card h4{
+    font-size: 1.3vw;
+    margin: 5px;
+}
+.card p{
+    font-size: 0.9srem;
+    color: #636363;
+    margin: 2px 2px 20px 5px;
+}
+.price{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+.price h6{
+    font-size: 1.2rem;
+    color: transparent;
+    margin-left: 5px;
+}
+.price button{
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.price button:hover{
+    background-color: rgb(48, 151, 48);
+}
+.price button a{
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper i{
+    height: 46px;
+    width: 46px;
+    background-color: #fff;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333333;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 3px 6px grey;
+    z-index: 20;
+}
+.wrapper i:first-child{
+    left: -28px;
+    
+}
+.wrapper i:last-child{
+    right: 30px;
+}
+
+.slick-arrow{
+    display: none !important;
+   
+}
+
+

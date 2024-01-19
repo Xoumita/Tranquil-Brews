@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.collapsible {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.active, .collapsible:hover {
+    background-color: #aaa9a9;
+} 
+.content {
+    /* padding: 0 18px; */
+    background-color: #fafafa;
+    padding-bottom: 20px;
+    overflow: hidden;
+
+    /* display: flex; */
+}
+.content section{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    /* padding: 0vw 30vw */
+}

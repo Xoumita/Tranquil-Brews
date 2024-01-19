@@ -1,0 +1,50 @@
+/* Footer Styles */
+
+.footer{
+  height: 60vh;
+  background-color: #3b3000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.footer-box1{
+  width: 85%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 30px 0 70px 0;
+}
+.logo-white{
+  width: 60px;
+  height: 60px;
+  background-image: url("img/LOGO-WHITE.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.footer-box1 .column{
+  text-align: center;
+  line-height: 30px;
+}
+ul{
+  list-style-type: none;
+}
+h5{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.footer-box2{
+  width: 85%;
+  height: 40px;
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.footer-box2 p{
+  padding: 7px 20px;
+  border-right: 1px solid white;
+}

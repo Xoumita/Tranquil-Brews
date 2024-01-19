@@ -1,0 +1,63 @@
+/* ... Your existing styles ... */
+
+.review-section {
+    width: 92%;
+    height: fit-content;
+    margin: 50px;
+    background-color: #fff;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    text-align: center;
+}
+.review-section div{
+    width: 40%;
+    height: 20vw;
+    border-radius: 10px;
+    background-image: url("img/snack(2).jpeg");
+    filter:brightness(70%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.review-section h2 {
+    margin: 30px;
+    color: white;
+    font-size: 2rem;
+}
+
+#reviewForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#reviewForm label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+#reviewForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#reviewForm button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+/* ... Your existing styles ... */

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tranquil Brews - Menu</title>
+    <!-- nav -->
+    <link rel="stylesheet" href="NAVstyle.css" />
+    <!-- banner -->
+    <link rel="stylesheet" href="BANNERstyle.css" />
+    <!-- Main Content -->
+    <link rel="stylesheet" href="MAIN_CONTENT.css" />
+    <!-- Cards -->
+    <link rel="stylesheet" href="CARD-SLIDERstyle.css" />
+    <!-- cart -->
+    <link rel="stylesheet" href="CART.css">
+    <!-- order description -->
+    <link rel="stylesheet" href="order-descript.css">
+    <!-- review -->
+    <link rel="stylesheet" href="review.css">
+    <!-- footer -->
+    <link rel="stylesheet" href="Footer.css" />
+
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- JS FILES -->
+    <script src="script.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="logo">
+        <img src="img/LOGO-COLOURED.png" alt="logo" />
+      </div>
+      <div class="nav-opt">
+        <div class="options A">
+          <a href="../index.html" target="_blank">Home</a>
+        </div>
+        <div class="options A">
+          <a href="index.html">Orders</a>
+        </div>
+        <div class="options A">
+          <a href="../VISIT US/index.html" target="_blank">Visit Us</a>
+        </div>
+        <!-- <div class="options icons A" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div> -->
+        <div class="options icons A" id="profile">
+          <i class="fa-regular fa-user"></i>
+        </div>
+        <div class="options icons B" id="bars">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+    <!-- BANNER -->
+    <div class="banner"></div>
+    <div class="headline">
+      <h1>Discover a Symphony of Flavors: Our Exquisite Cafe Menu</h1>
+    </div>
+
+    <button type="button" class="collapsible">Drinks</button>
+    <div class="content" id="drinks-content">
+      <section>Explore our refreshing drinks</section>
+
+      <div class="card" id="drink1">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Tranquil Mocha Delight:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button class="add-to-cart-btn" onclick="addToCart('drink1')">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------- -->
+      <div class="card" id="drink2">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Serenity Iced Latte:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button class="add-to-cart-btn" onclick="addToCart('drink2')">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------------------- -->
+      <div class="card" id="drink3">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Chai Zen Elixir:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button class="add-to-cart-btn" onclick="addToCart('drink3')">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------- -->
+      <div class="card" id="drink4">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Caramel Bliss Macchiato:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button class="add-to-cart-btn" onclick="addToCart('drink4')">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------- -->
+      <div class="card" id="drink5">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Silent Sip Green Tea:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button class="add-to-cart-btn" onclick="addToCart('drink5')">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="collapsible">Snacks</button>
+    <div class="content" id="snacks-content">
+      <section>Explore our delisious Snacks</section>
+
+      <div class="card" id="i">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Relaxing Avocado Toast: </h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------- -->
+      <div class="card" id="ii">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Harmony Hummus Platter</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------------------- -->
+      <div class="card" id="iii">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Blissful Bruschetta: </h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------- -->
+      <div class="card" id="iv">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Crispy Zen Spring Rolls</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------- -->
+      <div class="card" id="v">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Meditative Quinoa Salad:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <button type="button" class="collapsible">Dessert</button>
+    <div class="content" id="desserts-content">
+      <section>Explore our refreshing drinks</section>
+
+      <div class="card" id="I">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Tranquil Mocha Delight:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------- -->
+      <div class="card" id="II">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Tranquil Mocha Delight:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------------------- -->
+      <div class="card" id="III">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Tranquil Mocha Delight:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------- -->
+      <div class="card" id="IV">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Tranquil Mocha Delight:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------- -->
+      <div class="card" id="V">
+        <div class="card-image">
+          <!-- <img src="img/drink(1).jpeg" alt="card_image" /> -->
+        </div>
+        
+        <div class="card-description">
+          <h4>Tranquil Mocha Delight:</h4>
+          <p>
+            Experience the perfect harmony of flavors with our signature drink - a delightful blend of rich, aromatic coffee and velvety smooth chocolate, crowned with a generous swirl of decadent whipped cream. Indulge in every sip as the exquisite combination tantalizes your taste buds and creates a moment of pure bliss.
+          </p>
+          <div class="price">
+            <h6>Rs. 200.50</h6>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- cart -->
+    <div class="cart">
+      <h2>Cart</h2>
+      <ul id="cart-items">
+          <!-- Cart items will be dynamically added here -->
+      </ul>
+      <div class="cart-controls">
+     
+          
+          <p>Total: <span id="total-price">$0.00</span></p>
+        <button onclick="orderNow()">Place Order</button>
+      </div>
+    </div>
+    <!-- order description -->
+    <div class="order-section">
+      <div class="order-image">
+          <img src="img/bg1.jpg" alt="Order Image">
+      </div>
+      <div class="order-form">
+          <h2>Special Requirements</h2>
+          <form id="orderForm" onsubmit="submitForm(event)">
+              <div>
+                <label for="requirements">Describe any specific requirements for your order:</label>
+                <textarea id="requirements" name="requirements" rows="4" cols="50"></textarea>
+  
+              </div>
+              <div>
+                <label>Choose your preference:</label>
+                <label><input type="radio" name="preference" value="Option 1"> Option 1</label>
+                <label><input type="radio" name="preference" value="Option 2"> Option 2</label>
+                <label><input type="radio" name="preference" value="Option 3"> Option 3</label>
+              </div>
+
+              <button type="submit">Submit</button>
+          </form>
+      </div>
+    </div>
+    <!-- review -->
+    <div class="review-section">
+      <div>
+        <h2>Write a Review</h2>
+      </div>
+      
+      <form id="reviewForm" onsubmit="submitReview(event)">
+          <label for="review">Share your thoughts about Tranquil Brews:</label>
+          <textarea id="review" name="review" rows="4" cols="50"></textarea>
+
+          <button type="submit">Submit Review</button>
+      </form>
+  </div>
+
+    <script src="script.js"></script>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-box1">
+        <div class="logo-white"></div>
+        <div class="column">
+          <h5>about Us</h5>
+          <ul>
+            <li>Our company</li>
+            <li>Our story</li>
+            <li>Our vision</li>
+            <li>Visit us</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h5>Quick Links</h5>
+          <ul>
+            <li>Home</li>
+            <li>Menu</li>
+            <li>Orders</li>
+            <li>FAQs</li>
+            <li>Customer Service</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h5>Social Media</h5>
+          <div class="fb"></div>
+          <div class="insta"></div>
+        </div>
+      </div>
+
+      <div class="footer-box2">
+        <p>Web accessibility</p>
+        <p>Terms and Condition</p>
+        <p>Contact Us</p>
+      </div>
+    </div>
+  </body>
+</html>

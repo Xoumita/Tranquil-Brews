@@ -1,0 +1,102 @@
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 1px 2px 5PX #8a8a8a;
+    margin-bottom: 20px;
+}
+.card-image{
+    width: 40%;
+    height: 20vw;
+    margin: 3px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#drink1 .card-image{
+    background-image: url("img/drink(1).jpeg");
+}
+#drink2 .card-image{
+    background-image: url("img/drink(2).jpeg");
+}
+#drink3 .card-image{
+    background-image: url("img/drink(3).jpeg");
+}
+#drink4 .card-image{
+    background-image: url("img/drink(4).jpeg");
+}
+#drink5 .card-image{
+    background-image: url("img/drink(5).jpeg");
+}
+
+#i .card-image{
+    background-image: url("img/snack(1).jpeg");
+}
+#ii .card-image{
+    background-image: url("img/snack(2).jpeg");
+}
+#iii .card-image{
+    background-image: url("img/snack(3).jpeg");
+}
+#iv .card-image{
+    background-image: url("img/snack(4).jpeg");
+}
+#v .card-image{
+    background-image: url("img/snack(5).jpeg");
+}
+
+
+.card-description{
+    /* position: relative;
+    top: -80px; */
+    width: 60%;
+    /* background-color: bisque; */
+}
+.card h4{
+    font-size: 1.5rem;
+    margin: 5px;
+}
+.card p{
+    text-align: justify;
+    font-size: 0.9rem;
+    color: #636363;
+    margin: 2px 2px 20px 5px;
+}
+.price{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.price h6{
+    font-size: 1.5rem;
+    color: green;
+    margin-left: 5px;
+}
+.price button{
+    font-size: 1.1rem;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}

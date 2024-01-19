@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranquil Brews</title>
+    <!-- NAVBAR -->
+    <link rel="stylesheet" href="NAVstyle.css">
+    <!-- HERO SECTION -->
+    <link rel="stylesheet" href="HEROstyle.css">
+    <!-- LATEST OFFERINGS -->
+    <link rel="stylesheet" href="CARD_SLIDER1_style.css">
+    <!-- BANNER SLIDER -->
+    <link rel="stylesheet" href="BANNER_SLIDER2_style.css">
+    <!-- FOOTER -->
+    <link rel="stylesheet" href="FOOTER.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- JS FILES -->
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/LOGO-COLOURED.png" alt="logo">
+        </div>
+        <div class="nav-opt">
+            <div class="options A">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="options A">
+                <a href="ORDERS/index.html">Orders</a>
+            </div>
+            <div class="options A">
+                <a href="VISIT US/index.html">Visit Us</a>
+            </div>
+            <div class="options icons A" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i> 
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn options icons"><i class="fa-regular fa-user"></i></button>
+                <div class="dropdown-content">
+                  <a href="logIn.html">Sign Up</a>
+                  <a href="logIn.html">Log In</a>
+                 
+                </div>
+              </div>
+            <!-- <div class="options icons A" id="profile">
+                <i class="fa-regular fa-user"></i>
+                
+            </div> -->
+            <div class="options icons B" id="bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+    <!-- HERO SECTION -->
+    <div class="HERO">
+            <div class="heading">
+                <h1>
+                    Welcome to Tranquil Brews:<br> 
+                    Where Serenity Meets Savor
+                </h1>
+                <p> Discover Delightful Fictitious Beverages and Calming Bites at Tranquil Brews</p>
+                <a href="ORDERS/index.html" target="_blank">Order From Us</a>
+            </div>
+    </div>
+    <!-- LATEST OFFERINGS -->
+    <div class="wrapper">
+        <h3>Latest Offerings</h3>
+        <i class="fa-solid fa-arrow-left"></i>
+        <ul class="carousel">
+            <!-- CARD 1 -->
+            <li class="card">
+                <img src="img/card1.png" alt="card_image">
+                <div class="card-description">
+                    <h4>Tranquil Mocha Delight:</h4>
+                    <p>A delightful blend of rich coffee and smooth chocolate, topped with whipped cream.</p>
+                </div>
+                <div class="price">
+                    <h6>200.50</h6>
+                    <button><a href="ORDERS/index.html">View in Menu</a></button>
+                </div>
+            </li>
+            <!-- CARD 2 -->
+            <li class="card">
+                <img src="img/card2.jpg" alt="card_image">
+                <div class="card-description">
+                    <h4>Serenity Iced Latte:</h4>
+                    <p>A refreshing iced latte with a hint of vanilla,<br> perfect for warm days.</p>
+                </div>
+                <div class="price">
+                    <h6>250.50</h6>
+                    <button><a href="ORDERS/index.html">View in Menu</a></button>
+                </div>
+            </li>
+            <!-- CARD 3 -->
+            <li class="card">
+                <img src="img/card3.jpeg" alt="card_image">
+                <div class="card-description">
+                    <h4>Tranquility Tiramisu:</h4>
+                    <p>A classic Italian dessert layered with coffee-soaked ladyfingers and mascarpone cream.</p>
+                </div>
+                <div class="price">
+                    <h6>280.50</h6>
+                    <button><a href="ORDERS/index.html">View in Menu</a></button>
+                </div>
+            </li>
+            <!-- CARD 4 -->
+            <li class="card">
+                <img src="img/card4.jpeg" alt="card_image">
+                <div class="card-description">
+                    <h4>Calm Mango Sorbet:</h4>
+                    <p>A refreshing mango pastry with a burst of tropical sweetness.</p>
+                </div>
+                <div class="price">
+                    <h6>200.50</h6>
+                    <button><a href="ORDERS/index.html">View in Menu</a></button>
+                </div>
+            </li>
+            <!-- CARD 5 -->
+            <li class="card">
+                <img src="img/card5.jpg" alt="card_image">
+                <div class="card-description">
+                    <h4>Caramel Bliss Macchiato:</h4>
+                    <p> A velvety macchiato infused with luscious caramel for a sweet treat.</p>
+                </div>
+                <div class="price">
+                    <h6>290.50</h6>
+                    <button><a href="ORDERS/index.html">View in Menu</a></button>
+                </div>
+            </li>
+            <!-- CARD 6 -->
+            <li class="card">
+                <img src="img/card6.jpeg" alt="card_image">
+                <div class="card-description">
+                    <h4>Crispy Zen Spring Rolls:</h4>
+                    <p>Light and crispy vegetable spring rolls served with a zesty dipping sauce.</p>
+                </div>
+                <div class="price">
+                    <h6>250.50</h6>
+                    <button><a href="ORDERS/index.html">View in Menu</a></button>
+                </div>
+            </li>
+        </ul>
+        <i class="fa-solid fa-arrow-right"></i>
+    </div>
+    <!-- BANNER SLIDER -->
+    <div class="wrapper2">
+        <div class="carousel2">
+            <img src="img/Banner 1.png" id="banner1">
+            <img src="img/Banner 2.png" id="banner2">
+            <img src="img/Banner 3.png" id="banner3">
+        </div>
+        <div class="carousel-nav">
+            <a href="#banner1"></a>
+            <a href="#banner2"></a>
+            <a href="#banner3"></a>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-box1">
+            <div class="logo-white"></div>
+            <div class="column">
+                <h5>about Us</h5>
+                <ul>
+                    <li>Our company</li>
+                    <li>Our story</li>
+                    <li>Our vision</li>
+                    <li>Visit us</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li>Home</li>
+                    <li>Menu</li>
+                    <li>Orders</li>
+                    <li>FAQs</li>
+                    <li>Customer Service</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h5>Social Media</h5>
+                <div class="fb"></div>
+                <div class="insta"></div>
+            </div>
+        </div>
+
+        <div class="footer-box2">
+            <p>Web accessibility</p>
+            <p>Terms and Condition</p>
+            <p>Contact Us</p>
+        </div>
+    </div>
+    
+</body>
+</html>
